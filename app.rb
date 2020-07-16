@@ -13,6 +13,7 @@ class App < Sinatra::Base
     pl = Piglatinizer.new 
     @piglatin = pl.piglatinize(params[:user_phrase])
     erb :results 
+    erb :user_input
     
   end 
   
