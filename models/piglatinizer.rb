@@ -6,8 +6,6 @@ class PigLatinizer
     
   end 
   
-  private
-  
   def piglatinize_word(word)
     
     if vowel?(word[0])
