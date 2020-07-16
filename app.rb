@@ -8,6 +8,8 @@ class App < Sinatra::Base
     
   end 
   
+  private
+  
   post '/piglatinize' do
     
     pl = Piglatinizer.new 
